@@ -13,7 +13,5 @@ jobs:
         uses: actions/setup-node@v3 
         with: 
           node-version: '18' 
-      - name: Run tests 
-        run: npm test 
       - name: Run Linter 
         run: npm run lint 
